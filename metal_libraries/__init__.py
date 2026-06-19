@@ -3,9 +3,9 @@ __init__.py: Entry Point for MetallibSupportPkg patching utilities
 """
 
 __title__   = "metal_libraries"
-__version__ = "1.0.0"
-__author__  = "Dortania"
-__url__     = "https://www.github.com/dortania/MetallibSupportPkg"
+__version__ = "2.0.0"
+__author__  = "Hackdoc"
+__url__     = "https://www.github.com/hackdoc/metal"
 
 
 from .cli            import main
