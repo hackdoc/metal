@@ -21,7 +21,11 @@ class IPSWExtract:
         Decrypt an AEA file.
         """
         output = input.with_suffix("")
-        aea_bin = Path(__file__).resolve().parent / "bins" / "aastuff"
+        import platform
+        if platform.machine()=="x86_64":
+            aea_bin = Path(__file__).resolve().parent / "bins" / "aastuff_x86"
+        else:
+            aea_bin = Path(__file__).resolve().parent / "bins" / "aastuff"
         if not aea_bin.exists():
             raise FileNotFoundError(f"{aea_bin} not found")
 
