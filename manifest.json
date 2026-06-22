@@ -1,11 +1,11 @@
 [
     {
-        "build": "25F71",
-        "version": "26.5",
-        "date": "2026-05-11",
-        "sha1sum": "e340d9a14cccc6021d0bc93fba4a4ed1d1713610",
-        "name": "MetallibSupportPkg 26.5 build 25F71",
+        "build": "25E253",
+        "version": "26.4.1",
+        "date": "2026-04-09",
+        "sha1sum": "03078f4af82bff5473398ca49f99288c76253fe8",
+        "name": "MetallibSupportPkg 26.4.1 build 25E253",
         "seen": "2026-06-22",
-        "url": "https://github.com/hackodc/metal/releases/download/26.5-25F71/MetallibSupportPkg-26.5-25F71.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.4.1-25E253/MetallibSupportPkg-26.4.1-25E253.pkg"
     }
 ]
