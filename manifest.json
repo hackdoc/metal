@@ -1,11 +1,11 @@
 [
     {
-        "build": "25G229",
+        "build": "25G227",
         "version": "26.7",
-        "date": "2026-09-09",
+        "date": "2026-08-31",
         "sha1sum": null,
-        "name": "MetallibSupportPkg 26.7 RC 4 build 25G229",
+        "name": "MetallibSupportPkg 26.7 RC 3 build 25G227",
         "seen": "2026-09-13",
-        "url": "https://github.com/hackodc/metal/releases/download/26.7-25G229/MetallibSupportPkg-26.7-25G229.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.7-25G227/MetallibSupportPkg-26.7-25G227.pkg"
     }
 ]
