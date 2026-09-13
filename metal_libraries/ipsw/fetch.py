@@ -5,6 +5,8 @@ fetch.py: Fetch latest IPSW images for macOS
 import plistlib
 import packaging.version
 
+from urllib.parse import urlparse
+
 from .manifest import MetallibSupportPkgManifest
 
 from ..network import NetworkUtilities
@@ -69,7 +71,7 @@ class FetchIPSW:
                     continue
 
                 for link in source.get("links", []):
-                    if not link["active"]:
+                    if not link["active"] or urlparse(link["url"]).path.lower().endswith(".aea"):
                         continue
 
                     installers.append(
@@ -90,19 +92,24 @@ class FetchIPSW:
                     # If we didn't find any links, go to the next source
                     continue
 
-                # We found a valid source, so don't check any other sources (so that we prefer IPSWs over OTAs)
-                break
-
+                # Keep checking sources so a full IPSW later in the list wins over an OTA.
         # Deduplicate builds
         installers_by_build = {}
         for installer in installers:
             installers_by_build.setdefault(installer["Build"], []).append(installer)
         
         for build, installer_variants in installers_by_build.items():
-            installer_variants.sort(key=lambda x: (x["Type"] != "ipsw", x["Variant"] != "Public"))
-        
+            installer_variants.sort(key=lambda x: (x["Type"] != "ipsw", x["Variant"] != "Public", x["Date"]), reverse=False)
+
         deduplicated = [variants[0] for variants in installers_by_build.values()]
-        deduplicated.sort(key=lambda x: (x["Variant"] == "Public", x["Date"]), reverse=True)
+        deduplicated.sort(
+            key=lambda x: (
+                packaging.version.parse(x["Version"].split(" ")[0]),
+                x["Variant"] == "Public",
+                x["Date"],
+            ),
+            reverse=True,
+        )
 
         return deduplicated
 
@@ -112,6 +119,7 @@ class FetchIPSW:
         Save the build info to Info.plist
         """
         info["MetallibSupportPkgVersion"] = __version__
+        info = {key: value for key, value in info.items() if value is not None}
         with open("Info.plist", "wb") as file:
             plistlib.dump(info, file)
 
