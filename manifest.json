@@ -1,11 +1,11 @@
 [
     {
-        "build": "25G220",
-        "version": "26.7",
-        "date": "2026-08-17",
-        "sha1sum": null,
-        "name": "MetallibSupportPkg 26.7 RC build 25G220",
+        "build": "25G82",
+        "version": "26.6.2",
+        "date": "2026-08-10",
+        "sha1sum": "a9ce4aa62e2c5423b65c09a7dfa22eb46889a5ef",
+        "name": "MetallibSupportPkg 26.6.2 RC build 25G82",
         "seen": "2026-09-13",
-        "url": "https://github.com/hackodc/metal/releases/download/26.7-25G220/MetallibSupportPkg-26.7-25G220.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.6.2-25G82/MetallibSupportPkg-26.6.2-25G82.pkg"
     }
 ]
