@@ -1,11 +1,11 @@
 [
     {
-        "build": "25F5053d",
+        "build": "25F5042g",
         "version": "26.5",
-        "date": "2026-04-13",
-        "sha1sum": "c021c6b884d66795ee81a2a6a404b98a04aec667",
-        "name": "MetallibSupportPkg 26.5 beta 2 build 25F5053d",
+        "date": "2026-03-30",
+        "sha1sum": "590b4648ce041ac372d49dc658ad6967177f4359",
+        "name": "MetallibSupportPkg 26.5 beta build 25F5042g",
         "seen": "2026-09-15",
-        "url": "https://github.com/hackodc/metal/releases/download/26.5-25F5053d/MetallibSupportPkg-26.5-25F5053d.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.5-25F5042g/MetallibSupportPkg-26.5-25F5042g.pkg"
     }
 ]
