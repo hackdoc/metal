@@ -1,11 +1,11 @@
 [
     {
-        "build": "25D5112c",
+        "build": "25D5101c",
         "version": "26.3",
-        "date": "2026-01-26",
-        "sha1sum": "e2d72d94fff9fb97d2ceb3072b29ae936f31c83c",
-        "name": "MetallibSupportPkg 26.3 beta 3 build 25D5112c",
+        "date": "2026-01-12",
+        "sha1sum": "20882ea35f4436f22057fceaeef2e447c1fc763f",
+        "name": "MetallibSupportPkg 26.3 beta 2 build 25D5101c",
         "seen": "2026-09-18",
-        "url": "https://github.com/hackodc/metal/releases/download/26.3-25D5112c/MetallibSupportPkg-26.3-25D5112c.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.3-25D5101c/MetallibSupportPkg-26.3-25D5101c.pkg"
     }
 ]
