@@ -1,11 +1,11 @@
 [
     {
-        "build": "25A5295e",
+        "build": "25A5279m",
         "version": "26.0",
-        "date": "2025-06-23",
-        "sha1sum": "67022b99e020d10e2a55b7f2d0c3817b1f615cec",
-        "name": "MetallibSupportPkg 26.0 beta 2 build 25A5295e",
+        "date": "2025-06-09",
+        "sha1sum": "9b26e9825d29698dce088c5370326f468429712f",
+        "name": "MetallibSupportPkg 26.0 beta build 25A5279m",
         "seen": "2026-09-23",
-        "url": "https://github.com/hackodc/metal/releases/download/26.0-25A5295e/MetallibSupportPkg-26.0-25A5295e.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.0-25A5279m/MetallibSupportPkg-26.0-25A5279m.pkg"
     }
 ]
