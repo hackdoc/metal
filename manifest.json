@@ -1,11 +1,11 @@
 [
     {
-        "build": "24H23",
+        "build": "24H22",
         "version": "15.8",
-        "date": "2026-09-14",
+        "date": "2026-08-31",
         "sha1sum": null,
-        "name": "MetallibSupportPkg 15.8 build 24H23",
+        "name": "MetallibSupportPkg 15.8 RC 3 build 24H22",
         "seen": "2026-09-24",
-        "url": "https://github.com/hackodc/metal/releases/download/15.8-24H23/MetallibSupportPkg-15.8-24H23.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/15.8-24H22/MetallibSupportPkg-15.8-24H22.pkg"
     }
 ]
