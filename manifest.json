@@ -1,11 +1,11 @@
 [
     {
-        "build": "24G817",
+        "build": "24G814",
         "version": "15.7.8",
-        "date": "2026-07-13",
-        "sha1sum": "1ba445d10de8fe7c74e7e9a962fd041d28c2c68a",
-        "name": "MetallibSupportPkg 15.7.8 RC 5 build 24G817",
+        "date": "2026-07-06",
+        "sha1sum": "0e69edb856c82967c3c3b85c9bf28144a48b9fb6",
+        "name": "MetallibSupportPkg 15.7.8 RC 4 build 24G814",
         "seen": "2026-09-25",
-        "url": "https://github.com/hackodc/metal/releases/download/15.7.8-24G817/MetallibSupportPkg-15.7.8-24G817.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/15.7.8-24G814/MetallibSupportPkg-15.7.8-24G814.pkg"
     }
 ]
