@@ -1,11 +1,11 @@
 [
     {
-        "build": "25G320",
-        "version": "26.7.2",
+        "build": "24H219",
+        "version": "15.8.2",
         "date": "2026-10-06",
         "sha1sum": null,
-        "name": "MetallibSupportPkg 26.7.2 RC build 25G320",
-        "seen": "2026-10-06",
-        "url": "https://github.com/hackodc/metal/releases/download/26.7.2-25G320/MetallibSupportPkg-26.7.2-25G320.pkg"
+        "name": "MetallibSupportPkg 15.8.2 RC build 24H219",
+        "seen": "2026-10-07",
+        "url": "https://github.com/hackodc/metal/releases/download/15.8.2-24H219/MetallibSupportPkg-15.8.2-24H219.pkg"
     }
 ]
