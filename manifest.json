@@ -1,11 +1,11 @@
 [
     {
-        "build": "24H225",
-        "version": "15.8.2",
-        "date": "2026-10-13",
-        "sha1sum": null,
-        "name": "MetallibSupportPkg 15.8.2 RC 2 build 24H225",
+        "build": "25E246",
+        "version": "26.4",
+        "date": "2026-03-24",
+        "sha1sum": "177baf85518c6e9cebf83990e11e59259b5c97dd",
+        "name": "MetallibSupportPkg 26.4 build 25E246",
         "seen": "2026-10-14",
-        "url": "https://github.com/hackodc/metal/releases/download/15.8.2-24H225/MetallibSupportPkg-15.8.2-24H225.pkg"
+        "url": "https://github.com/hackodc/metal/releases/download/26.4-25E246/MetallibSupportPkg-26.4-25E246.pkg"
     }
 ]
