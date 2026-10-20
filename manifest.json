@@ -1,11 +1,11 @@
 [
     {
-        "build": "25G330",
-        "version": "26.7.2",
-        "date": "2026-10-19",
-        "sha1sum": null,
-        "name": "MetallibSupportPkg 26.7.2 RC 3 build 25G330",
-        "seen": "2026-10-19",
-        "url": "https://github.com/hackodc/metal/releases/download/26.7.2-25G330/MetallibSupportPkg-26.7.2-25G330.pkg"
+        "build": "25F71",
+        "version": "26.5",
+        "date": "2026-05-11",
+        "sha1sum": "e340d9a14cccc6021d0bc93fba4a4ed1d1713610",
+        "name": "MetallibSupportPkg 26.5 build 25F71",
+        "seen": "2026-10-20",
+        "url": "https://github.com/hackodc/metal/releases/download/26.5-25F71/MetallibSupportPkg-26.5-25F71.pkg"
     }
 ]
